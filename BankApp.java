@@ -23,16 +23,16 @@ public class BankApp {
                 String[] command = req.split("\\s+");
 
                // calling functions according to input received
-                if(command[0].equals("CREATE")){
+                if(command[0].toLowerCase(Locale.ROOT).equals("create")){
                     createAccount(command);
-                }else if(command[0].equals("DEPOSIT")){
+                }else if(command[0].toLowerCase(Locale.ROOT).equals("deposit")){
                     depositMoney(command);
-                }else if(command[0].equals("WITHDRAW")){
+                }else if(command[0].toLowerCase(Locale.ROOT).equals("withdraw")){
                     withdrawMoney(command);
-                }else if(command[0].equals("BALANCE")){
+                }else if(command[0].toLowerCase(Locale.ROOT).equals("balance")){
                     getBalance(command);
                 }else{
-                    //If No Realated functions are found
+                    //If No Related functions are found
                     System.out.println("Command Not found!!! Please Use CREATE, DEPOSIT, WITHDRAW, BALANCE");
 
                 }
