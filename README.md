@@ -12,20 +12,7 @@ alt="OUTPUT DEMO VIDEO" width="500" height="500" border="10" /></a>
 
 ## Try Yourself
 
-**Sample Input**
-      CREATE ACC001 KELP
-      DEPOSIT ACC001 10000
-      WITHDRAW ACC001 1000
-      CREATE ACC002 FVTPL
-      DEPOSIT ACC002 10000
-      WITHDRAW ACC002 2000
-      BALANCE ACC002
-      BALANCE ACC001
-      
-**Sample output**
-    FVTPL 8000
-    KELP  9000
-
+<img src="https://github.com/Nitinp13/Bank-App/blob/main/Sample%20input%20output.PNG" width="300" height="300" />
 
 
 ## Installation
